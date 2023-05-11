@@ -1,0 +1,108 @@
+.start-project {
+    .top-icon {
+        right: -120px;
+    }
+
+    .bottom-icon {
+        bottom: 150px;
+    }
+}
+
+//Price Plans
+.choose-plan {
+    .v-btn-group {
+      width: 100%;
+
+      .v-btn {
+        background-color: rgb(var(--v-theme-lightinfo));
+        font-size: 17px;
+
+        &.v-btn--active {
+          background-color: rgb(var(--v-theme-surface));
+
+          .v-btn__overlay {
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+
+
+  .hover-card {
+    .zoom-in {
+        transition: all 0.4s ease-in-out;
+    }
+
+    &:hover {
+        .zoom-in {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.team-card {
+  .team-subtitle {
+    font-size: 13px;
+  }
+  .social-overlay {
+    position: relative;
+    .img-overlay {
+      background: rgba(26, 139, 243, 0.87);
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 6px;
+      left: 0;
+      padding: 1.25rem;
+      border-radius: calc(0.25rem - 1px);
+      ul {
+        position: relative;
+        top: 50%;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding-left: 0;
+        li {
+          a {
+            color: rgb(var(--v-theme-white));
+            transition: 0.2s ease-in;
+            padding: 0 10px;
+            display: block;
+            &:hover {
+              transform: translate3d(0px, -5px, 0px);
+            }
+          }
+        }
+      }
+    }
+    &:hover {
+      .img-overlay {
+        display: block;
+      }
+    }
+  }
+}
+
+
+//footer
+.social-icons {
+  a {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0 5px;
+    transition: 0.2s ease-in;
+    color: rgb(var(--v-theme-primary));
+    background: rgb(var(--v-theme-light));
+    &:hover {
+      transform: translate3d(0px, -5px, 0px);
+      background: rgb(var(--v-theme-primary));
+      color: rgb(var(--v-theme-white));
+    }
+  }
+}
