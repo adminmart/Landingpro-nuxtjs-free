@@ -80,7 +80,7 @@ const show3 = ref(true);
                 ></v-checkbox>
                 <div class="mt-3">
                   <v-btn class="bg-success mr-3 text-white" elevation="0" >Save</v-btn>
-                  <v-btn class="bg-dark" elevation="0" dark>Cancel</v-btn>
+                  <v-btn class="bg-primary" elevation="0" dark>Cancel</v-btn>
                 </div>
               </v-card-text>
             </v-card>
