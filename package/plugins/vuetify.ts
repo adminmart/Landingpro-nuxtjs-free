@@ -7,8 +7,6 @@ import VueTablerIcons from "vue-tabler-icons";
 //Mock Api data
 import "../_mockApis";
 
-import "vue3-carousel/dist/carousel.css";
-
 //import style
 import "@/assets/scss/style.scss";
 
@@ -62,6 +60,12 @@ export default defineNuxtPlugin((nuxtApp) => {
                 variables: {},
             },
         },
+        defaults: {
+            VBtn: {
+              style: "text-transform: capitalize; letter-spacing:0;",
+              rounded: "md",
+            },
+          },
     });
     
 

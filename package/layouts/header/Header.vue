@@ -40,7 +40,7 @@ function handleScroll() {
                     <NavItem :item="item" v-else class="" />
                     <!---End Single Item-->
                 </template>
-                <v-btn color="primary" class="mt-3" block size="large" variant="flat">Upgrade to pro</v-btn>
+                <v-btn color="primary" class="mt-3" block size="large" target="_blank" href="https://adminmart.com/product/landingpro-nuxt-website-template/" variant="flat">Upgrade to pro</v-btn>
             </v-list>
       </perfect-scrollbar>
     </v-navigation-drawer>
@@ -62,7 +62,7 @@ function handleScroll() {
                 </template>
             </v-list>
           <div class="d-md-flex d-none">
-            <v-btn color="primary" class="ms-3 sticky-border d-md-flex d-none" size="large" variant="flat">Upgrade to pro</v-btn>
+            <v-btn color="primary" class="ms-3 sticky-border d-md-flex d-none" target="_blank" href="https://adminmart.com/product/landingpro-nuxt-website-template/" size="large" variant="flat">Upgrade to pro</v-btn>
           </div>
           <Menu2Icon class="d-md-none d-flex drawer-icon  no-effect ml-auto mr-0" @click.stop="drawer = !drawer"
             size="30"></Menu2Icon>

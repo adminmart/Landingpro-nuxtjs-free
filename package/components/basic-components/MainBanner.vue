@@ -20,7 +20,7 @@
                 Built with Nuxt Js and based on Vuetify js Free UI Kit
               </h4>
               <div class="mt-8">
-                <v-btn to="/" size="large" color="primary" flat>
+                <v-btn target="_blank" href="https://adminmart.com/product/landingpro-nuxt-website-template/" size="large" color="primary" flat>
                   Upgrade to Pro
                 </v-btn>
               </div>

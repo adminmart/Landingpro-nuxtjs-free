@@ -8,25 +8,13 @@
 @import 'layout/footer';
 
 /*components*/
-@import './components/VBreadcrumb';
-@import './components/VAlert';
 @import './components/VButtons';
 @import './components/VCard';
-@import './components/VCarousel';
-@import './components/VField';
-@import './components/VList';
 @import './components/VInput';
 @import './components/VNavigationDrawer';
 @import './components/VShadow';
-@import './components/VSwitch';
-@import './components/VSelectionControl';
 @import './components/VTextField';
-@import './components/VTextarea';
-@import './components/VTabs';
-@import './components/VTable';
-@import './components/VExpansionpanel';
 @import './components/VPagination';
+@import './components/VTooltip';
 
-
-//Corporate Demo
 @import 'demos/corporate';

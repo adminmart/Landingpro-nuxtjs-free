@@ -17,7 +17,7 @@
               <div class="mt-8">
                 <v-btn
                     class="btn bg-white btn-custom-md"
-                    to="/"
+                    target="_blank" href="https://adminmart.com/product/landingpro-nuxt-website-template/"
                     flat
                     size="large"
                 >

@@ -27,6 +27,22 @@
             height: 100%;
         }
     }
+
+    .v-card-title {
+        line-height: 1.6;
+    }
+
+    .v-card-subtitle {
+        opacity: 1;
+    }
+    
+    .v-card-text{
+        padding: 24px;
+    }
+
+    .v-card-item {
+        padding: 30px 30px 24px;
+    }
 }
 
 // Theme cards

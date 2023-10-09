@@ -38,14 +38,13 @@ const show3 = ref(true);
 
               <v-card-text>
                 <v-text-field
-                v-model="first"
+                
                 color="primary"
                 label="User Name"
                 variant="underlined"
               ></v-text-field>
 
               <v-text-field
-                v-model="last"
                 color="primary"
                 type="email"
                 label="Email"

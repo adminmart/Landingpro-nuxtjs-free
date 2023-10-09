@@ -86,20 +86,7 @@ $box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
             'font-family': inherit,
             'letter-spacing': 0,
             'text-transform': uppercase)) !default,
-    // 👉 Button
-    $button-border-radius: $border-radius-root !default,
-    $button-text-letter-spacing: 0 !default,
-    $button-text-transform: capitalize,
-    $button-elevation: ('default': 0,
-        'hover': 4,
-        'active': 8) !default,
 
-    // 👉 Tooltip
-    $tooltip-background-color: #212121 !default,
-    $tooltip-text-color: rgb(var(--v-theme-on-primary)) !default,
-    $tooltip-font-size: 0.75rem !default,
-    $tooltip-border-radius: 4px !default,
-    $tooltip-padding: 4px 8px !default,
 
     // 👉 Rounded
     $rounded: (0: 0,
@@ -113,11 +100,4 @@ $box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         'pill': 9999px,
         'circle': 50%),
 
-    // 👉 Card
-    $card-elevation: 10 !default,
-    $card-title-line-height: 1.6 !default,
-    $card-text-padding: 24px !default,
-    $card-item-padding: 30px 30px 24px !default,
-    $card-actions-padding: 10px 24px 24px !default,
-    $card-subtitle-opacity: 1 !default,
 );
